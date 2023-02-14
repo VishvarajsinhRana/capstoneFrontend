@@ -1,0 +1,40 @@
+.body-container {
+  background: url('../../public/images/Plan_travel.jpg') center center/cover no-repeat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.ul {
+  text-align: left;
+  width: 400px;
+}
+
+.box {
+  background-color: white;
+  font-size: larger;
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  margin: 3px;
+  width: 20rem;
+  padding-left: 10px;
+}
+
+.input {
+  height: 27px;
+  margin: 4px;
+  padding: 4px;
+  font-size: 24px;
+}
+.button {
+  height: 40px;
+  margin: 4px;
+  padding: 4px;
+  font-size: 24px;
+}
